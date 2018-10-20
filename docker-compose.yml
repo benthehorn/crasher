@@ -1,0 +1,6 @@
+version: '2.1'
+services:
+    crasher:
+        image: benthehorn/crasher
+        ports:
+          - 8888:8888
