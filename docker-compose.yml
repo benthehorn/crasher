@@ -4,3 +4,4 @@ services:
         image: benthehorn/crasher
         ports:
           - 8888:8888
+        restart: no
