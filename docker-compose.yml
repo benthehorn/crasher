@@ -4,5 +4,6 @@ services:
         image: benthehorn/crasher
         ports:
           - 8888:8888
-        restart_policy:
-          condition: no
+        deploy:
+          restart_policy:
+            condition: no
