@@ -5,5 +5,4 @@ services:
         ports:
           - 8888:8888
         deploy:
-          restart_policy:
-            condition: "no"
+          restart: "no"
